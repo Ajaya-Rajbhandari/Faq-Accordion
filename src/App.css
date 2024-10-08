@@ -66,7 +66,8 @@
     padding: 10rem 0px;
   }
   .App-header{
-    max-width: 600px;
+    width: calc(100%-50px);
+    max-width: 800px;
     max-height: 100vh;
     margin: 0 auto;
     display: flex;
