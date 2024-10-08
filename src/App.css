@@ -1,5 +1,24 @@
+/* Mobile Layaout */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work sans';
+}
 .App {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  height: 100dvh;
   text-align: center;
+  margin: 0 auto;
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-color: hsl(275,100%, 97%);
 }
 
 .App-logo {
@@ -14,14 +33,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: hsl(0,0%,100%);
   display: flex;
+  margin: 7rem 0rem;
+  /* max-height: 100dvh; */
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: baseline;
+  justify-content: baseline;
+  font-size: calc(16px + 2vmin);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .App-link {
@@ -34,5 +55,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+/* desktop layout */
+@media (max-width:1440px){
+  .App{
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    max-width: 1320px;
+    /* width: 500px; */
+    padding: 10rem 0px;
+  }
+  .App-header{
+    max-width: 600px;
+    max-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -1,0 +1,28 @@
+/* @import url("https://fonts.google.com/specimen/Work+Sans"); */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-family: 'Work Sans';
+}
+heading{
+    /* font-size: 14px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-self: baseline;
+    align-items: center;
+    align-self: baseline;
+    padding: 20px 0px;
+}
+heading h1{
+    padding: 0px 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+    justify-content: space-around;
+}
