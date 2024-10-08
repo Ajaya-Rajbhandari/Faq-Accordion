@@ -21,7 +21,7 @@ const MobileLayout = () => {
   return (
     <main>
       <heading>
-        <img src={Star} width="20px" height="20px"/>
+        <img src={Star} width="20px" height="20px" alt="Star Icon"/>
         <h1>FAQs</h1>
       </heading>
       <div className="container">
