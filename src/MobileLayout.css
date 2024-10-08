@@ -6,7 +6,7 @@ main{
     font-size: 16px;
     font-family: 'Work Sans';
 }
-heading{
+header{
     /* font-size: 14px; */
     display: flex;
     flex-direction: row;
@@ -16,7 +16,7 @@ heading{
     align-self: baseline;
     padding: 20px 0px;
 }
-heading h1{
+header h1{
     padding: 0px 20px;
 }
 .container{

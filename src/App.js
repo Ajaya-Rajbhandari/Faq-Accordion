@@ -4,9 +4,9 @@ import MobileLayout from "./MobileLayout";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <MobileLayout />
-      </header>
+      </div>
     </div>
   );
 }
